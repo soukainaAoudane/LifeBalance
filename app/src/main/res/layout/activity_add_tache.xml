@@ -67,7 +67,21 @@
             android:background="@drawable/edittext_background"
             android:padding="12dp"
             android:layout_marginBottom="32dp"/>
+        <!-- Après le champ Date -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Statut"
+            android:textColor="#333333"
+            android:layout_marginBottom="8dp"/>
 
+        <Spinner
+            android:id="@+id/spinnerStatut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:layout_marginBottom="32dp"/>
         <Button
             android:id="@+id/btnAjouter"
             android:layout_width="match_parent"

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#FAFAFF">
 
+    <!-- En-tête -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,20 +32,35 @@
             android:background="@android:color/transparent"/>
     </LinearLayout>
 
+    <!-- Message vide -->
     <TextView
         android:id="@+id/tvEmpty"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Aucune tâche"
-        android:textSize="18sp"
+        android:text="Aucune tâche pour le moment\nAppuyez sur + pour en ajouter une"
+        android:textSize="16sp"
         android:textColor="#888888"
         android:gravity="center"
+        android:textAlignment="center"
         android:visibility="gone"/>
 
+    <!-- Liste des tâches -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:padding="8dp"/>
+
+    <!-- Bouton Ajouter -->
+    <Button
+        android:id="@+id/btnAjouter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+ Ajouter une tâche"
+        android:textColor="#FFFFFF"
+        android:background="#6C63FF"
+        android:layout_margin="16dp"
+        android:padding="16dp"/>
 
 </LinearLayout>
