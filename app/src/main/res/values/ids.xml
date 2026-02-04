@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="spinnerStatut" type="id" />
+    <item name="spinnerPriorite" type="id" />
+    <item name="spinnerCategorie" type="id" />
+    <item name="cbImportant" type="id" />
+</resources>
