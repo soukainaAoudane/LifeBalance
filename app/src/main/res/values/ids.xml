@@ -4,4 +4,6 @@
     <item name="spinnerPriorite" type="id" />
     <item name="spinnerCategorie" type="id" />
     <item name="cbImportant" type="id" />
+    <item name="tvEmpty" type="id" />
+    <item name="btnRetour" type="id" />
 </resources>

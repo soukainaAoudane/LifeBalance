@@ -8,11 +8,12 @@
 
     <!-- En-tête -->
     <LinearLayout
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:background="#6C63FF"
-        android:padding="16dp">
+        android:padding="20dp">
 
         <TextView
             android:layout_width="0dp"
